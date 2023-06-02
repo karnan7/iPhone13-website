@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;600;700&family=Krona+One&family=Montserrat&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
+a,
+button,
+h1,
+h2,
+h3,
+h4{
+    color: rgb(40,40,40);
+}
 nav{
     position: fixed;
     width: 100vw;
@@ -31,7 +40,15 @@ nav, a{
     font-size: 1rem;
     font-weight: bold;
 }
-
+.buy-button{
+    padding: 0.2rem 2rem;
+    font-size: 0.7rem;
+    background-color: #3056f5;
+    color: #fff;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
 .first-page{
     min-height: 100vh;
     padding: 0% 20%;
@@ -44,7 +61,13 @@ nav, a{
     z-index: 2;
     text-align: center;
 }
+.first-page-title{
+    font-size: 1.5rem;
+}
+.first-page-subtitle{
+    font-size: 3rem;
+}
 
 .intro-video{
-    /* position: absolute; */
+    position: absolute;
 }
