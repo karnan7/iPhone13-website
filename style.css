@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 20%;
+    min-height: 10vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    z-index: 9;
+}
+
+nav, a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.nav-links a,
+.nav-links button{
+    margin-left: 2rem;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.first-page{
+    min-height: 100vh;
+    padding: 0% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-page-text{
+    z-index: 2;
+    text-align: center;
+}
+
+.intro-video{
+    /* position: absolute; */
+}
