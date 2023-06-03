@@ -189,3 +189,38 @@ nav, a{
     transform: translate(-50%, 0%) scale(0.8);
     transform-origin: bottom;
 }
+/* fifth page */
+.fifth-page{
+    position: relative;
+    min-height: 100vh;
+}
+.product-video{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.product-info-container{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0% 10rem;
+}
+.right-info,
+.left-info{
+    width: 20%;
+}
+.right-info h3,
+.left-info h3{
+    padding: 3rem 0rem;
+    color: rgb(210, 208, 208);
+}
+.left-info span,
+.right-info span{
+    color:  rgb(210, 208, 208);
+    font-size: 1.5rem;
+}
