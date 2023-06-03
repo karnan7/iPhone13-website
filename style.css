@@ -224,3 +224,10 @@ nav, a{
     color:  rgb(210, 208, 208);
     font-size: 1.5rem;
 }
+/* sixth page */
+.sixth-page{
+    min-height: 100vh;
+    padding: 10% 20%;
+    justify-content: space-around;
+    position: relative;
+}
