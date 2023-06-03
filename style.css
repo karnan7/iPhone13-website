@@ -228,6 +228,33 @@ nav, a{
 .sixth-page{
     min-height: 100vh;
     padding: 10% 20%;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
+    display: flex;
+}
+.portrait{
+    height: 70vh;
+}
+.phone-video{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+}
+.phone-video img,
+.phone-video video{
+    position: absolute;
+}
+.phone-video img{
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    
+}
+.phone-video video{
+    left: 1rem;
+    bottom: 1rem;
+    transform: scale(0.8);
+    border-radius: 2rem;
 }
