@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
+
+.first-page::-webkit-scrollbar{
+    display: none;
+}
+
 a,
 button,
 h1,
@@ -79,6 +84,7 @@ nav, a{
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
 }
 .smoke-video{
     position: absolute;
@@ -155,6 +161,7 @@ nav, a{
     overflow: hidden;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 .phone-gallery{
     display: flex;
