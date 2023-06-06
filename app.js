@@ -26,7 +26,7 @@ tlH.fromTo(".highlight",
 const tlHRemove = gsap.timeline({
     scrollTrigger: {
         trigger: ".second-page",
-        markers: {startColor:"blue", endColor:"blue"},
+        markers: {startColor:"pink", endColor:"pink"},
         scrub:true,
         start:"-20%",
         end:"60%",
