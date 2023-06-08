@@ -66,10 +66,34 @@ tlSplit.fromTo(
 const tlSplitPin = gsap.timeline({
     scrollTrigger: {
         trigger: ".third-page",
-        start: "0%",
+        start: "10%",
         end: "100%",
         pin: true,
         pinSpacing: false,
     }
 })
 
+const swatches = document.querySelectorAll(".swatches img")
+const gallery = document.querySelector('.phone-gallery') 
+const slides = document.querySelectorAll(".phone-gallery-container")
+
+let currentSwatch = "blue"
+let topIndex = 2
+
+swatches.forEach((swatch, index) => {
+
+    let co = slides[index].getBoundingClientRect().left;
+
+    swatch.addEventListener("click", (e) => {
+        let swatchName = e.target.getAttribute("swatch")
+        let closeUp = document.querySelector("."+swatchName)
+
+        if(currentSwatch === swatchName) return
+        
+        gsap.set(closeUp, {zIndex:topIndex})
+        gsap.fromTo(closeUp, {opacity: 0}, {opacity: 1, duration: 1})
+
+        topIndex++
+        currentSwatch = swatchName ;
+    })
+})

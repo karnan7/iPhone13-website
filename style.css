@@ -29,7 +29,7 @@ nav{
     min-height: 8vh;
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
-    z-index: 9;
+    z-index: 999;
 }
 
 nav, a{
@@ -111,6 +111,7 @@ nav, a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 200px;
     min-height: 100vh;
     background: white;
 }
@@ -173,6 +174,7 @@ nav, a{
     align-items: center;
     justify-content: center;
 }
+
 .swatch-container{
     text-align: center;
 }
@@ -196,6 +198,10 @@ nav, a{
     transform: translate(-50%, 0%) scale(0.8);
     transform-origin: bottom;
 }
+.blue{
+    z-index: 1;
+}
+
 /* fifth page */
 .fifth-page{
     min-height: 100vh;
