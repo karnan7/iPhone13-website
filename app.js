@@ -117,7 +117,6 @@ tlVideo.fromTo(".product-info-container h3",
 )
 
 // sixth page
-
 const tlParallax = gsap.timeline({
     scrollTrigger : {
         trigger: ".sixth-page",
