@@ -41,7 +41,6 @@ const tlSplit = gsap.timeline({
         trigger: ".third-page",
         start: "-10%",
         end: "25%",
-        markers: true,
         scrub: true,
     }
 })
