@@ -289,4 +289,10 @@ nav, a{
     .first-page{
         padding: 0 5%;
     }
+    .nav-links a{
+        display: none;
+    }
+    .second-text{
+        font-size: 2rem;
+    }
 }
